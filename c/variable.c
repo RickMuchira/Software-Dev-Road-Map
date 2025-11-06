@@ -1,18 +1,13 @@
 #include <stdio.h>
+int main(){
+  int myInt=10;
+  float myFloat=10.5;
+  char myChar= 'a';//character must be in single quotes while string must be in double quotes
 
-int main() {
-    // Integer variable
-    int myInt = 42;
-    printf("Integer value: %d\n", myInt);
-    
-    // Float variable
-    float myFloat = 3.14;
-    printf("Float value: %f\n", myFloat);
-    
-    // Character variable
-    char myChar = 'A';
-    printf("Character value: %c\n", myChar);
-    
-    return 0;
+  printf("%d\n",myInt);//forwars slash not backslash for n
+  printf("%f\n",myFloat);
+  printf("%c\n",myChar);
+  printf("My character is %c and my integer is %d " ,myChar,myInt);
+  return 0;
+
 }
-
