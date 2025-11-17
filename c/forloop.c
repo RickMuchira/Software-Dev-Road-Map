@@ -31,12 +31,14 @@ for (num=1; num<=5; num++){
 }
 printf("Sum is %d", sum);  // Prints: Sum is 15
 
-//countdown 
-
-int count;
-
-for(num=5 ;num >= 0; num--){
-    printf("Happy New Year %d\n" ,num);
+// Example 3: Countdown from 5 to 0
+for(num=5; num >= 0; num--){
+    // num=5: Start counting from 5
+    // num >= 0: Keep going while num is greater than or equal to 0 (includes 0)
+    // num--: Subtract 1 from num after each loop (counting down)
+    
+    printf("Happy New Year %d\n", num);
+    // Loop runs: num=5, num=4, num=3, num=2, num=1, num=0 (6 times total)
 }
 
 
