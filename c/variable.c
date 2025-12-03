@@ -8,7 +8,6 @@ int main(){
   //when you use cins the values become constant and cannot be replicated
   const int minutesPerHour = 60;
   const int monthsInYear = 12;
-
   printf("%d\n",myInt);//forwars slash not backslash for n
   printf("%f\n",myFloat);
   printf("%c\n",myChar);

@@ -1,12 +1,17 @@
 #include <stdio.h>
+
 int main(){
-    int myInt=10;
-    float myFloat=10.5;
-    double myDouble=10.59904390;
-    char myChar='a';
-    printf("The size of myInt is %zu bytes\n", sizeof(myInt));
-    printf("The size of myFloat is %zu bytes\n", sizeof(myFloat));
-    printf("The size of myDouble is %zu bytes\n", sizeof(myDouble));
-    printf("The size of myChar is %zu bytes\n", sizeof(myChar));
+    int myNum= 5;
+    float myFloat= 35.6743;
+    char myChar = 'R';
+    char myString[]= "Awesomeness";
+    double myDouble= 123.456789012345;
+
+    printf("The size of myNUm is %zu bytes\n", sizeof(myNum));
+    printf("The size of myfloat is %zu bytes\n", sizeof(myFloat));
+    printf("The size of mychar is %zu bytes\n", sizeof(myChar));
+    printf("The size of mystring is %zu bytes\n", sizeof(myString));
+    printf("The size of mydouble is %zu bytes\n", sizeof(myDouble));
     return 0;
+
 }

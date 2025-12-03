@@ -1,9 +1,9 @@
 #include <stdio.h>
 int main(){
-    int x=5 ,y=6, z=20;
+int x=6 , y=7 ,z=10;
+printf("The sum of this 3 numbers is %d\n",x+y+z);
+return 0;
 
-    printf("the sum of this 3 numbers is %d",x+y+z);
-    return 0;
 }
 /*
 The general rules for naming variables are:

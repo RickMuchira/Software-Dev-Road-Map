@@ -8,8 +8,8 @@ int main(){
     totalCost=totalItems*costPerItem;
 //the /n is inside the comments
     printf("The total items are %d\n", totalItems);
-    printf("The cost per item is %f %c\n", costPerItem ,currency);
-    printf("the total per item is %f%c\n",totalCost, currency);
+    printf("The cost per item is %f%c\n", costPerItem ,currency);
+    printf("the total per item is %f %c\n",totalCost,currency);
     return 0;
 
 }
