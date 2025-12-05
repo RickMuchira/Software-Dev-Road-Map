@@ -9,7 +9,7 @@ int i;  // Declare loop counter variable
 // for loop syntax: for(initialization; condition; increment)
 for (i=0; i<5; i++){
     // i=0: Initialize i to 0 (runs once at the start)
-    // i<5: Condition - loop continues while i is less than 5
+    // i<5: Condition -`     loop continues while i is less than 5
     // i++: Increment - add 1 to i after each iteration
     
     printf("%d\n", i);  // Print the current value of i
