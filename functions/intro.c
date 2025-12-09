@@ -1,29 +1,26 @@
 #include <stdio.h>
+/*
+myFunction() is the name of the function
+void means that the function does not have a return value. You will learn more about return values later in the next chapter
+Inside the function (the body), add code that defines what the function should do
+*/
+void myFyunction(){
+  printf("RIck is Awesome");
 
-// Create a function
-// void means this function doesn't return any value - it just performs actions
-// If a function returns a value (like int, float, char), you'd use that type instead
-void myFunction() {
-    printf("I just got executed!\n");
-  }
-  
-void calculateSum(){
-    int x =5 ;
-    int y =7 ;
-    int sum = x+y;
-printf("The total sum is %d\n", sum);
 }
 
-  int main() {
-    myFunction(); // call the function
-    myFunction(); // call the function
-    myFunction(); // call the function
-    calculateSum();
+void sum(){
+int a =60;
+int b =7;
 
+int sum = a+ b;
 
+printf("The sum of %d and %d is %d\n( six seven)", a ,b ,sum);
 
+}
 
-
-
-    return 0;
-  }
+int main(){
+  myFyunction();
+  sum();
+  return 0;
+}
