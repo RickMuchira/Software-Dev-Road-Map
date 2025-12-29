@@ -17,6 +17,23 @@ string lastName = "Doe";
 string fullName = firstName + lastName;
 cout << "Full Name: " << fullName << endl;
 //Full Name: John Doe
+
+//special characters (double ,single quote )
+string vikings = "Great Nordic warriors where called \'Vikings\'";
+string spartans = "Great Greek warriors where called \"Spartans\"";
+//bacckslash 
+string backslash = "Spartans \\Vikings";
+
+cout << vikings <<endl;
+cout << spartans <<endl;
+cout << backslash <<endl;
+
+string name;
+cout << "Type your name: ";
+cin >>name;
+cout <<"Thankyou "<<name <<endl;
+
+
     return 0; 
 }
 
