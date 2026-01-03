@@ -27,3 +27,14 @@ int main(){
     cout << "Happy New Year!" << endl;
 
 }
+/*
+The value of i is:-5
+The value of i is:-4
+The value of i is:-3
+The value of i is:-2
+The value of i is:-1
+3
+2
+1
+Happy New Year!
+*/
